@@ -1,7 +1,7 @@
 # File: a5.py
 # Time: 12.3.2023 klo XX.XX
 # Author(s): Sebastian Sopola
-# Description: ------------------YET TO BE ANSWERED-------------------------------
+# Description: Create decorator class to handle function argument types
 
 class MagazineDecorator(object):
     def __init__(self, min_number, types):
