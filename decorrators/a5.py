@@ -9,9 +9,6 @@ class MagazineDecorator(object):
         self.types = types
      
 
-    # en nyt ihan tajua miksi tuossa pitää olla (self, inner). Miksi se inner pitää olla tuossa?????
-    # ja sitten se ku palautetaan niin se palauttaa 
-
     def __call__(self, magazine):
         def inner(*args, **kwargs):
 
